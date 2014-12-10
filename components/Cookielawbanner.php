@@ -61,7 +61,7 @@ class Cookielawbanner extends ComponentBase
                 'title' => 'cggstudio.cookielawbanner::lang.messages.Time',
                 'description' => 'cggstudio.cookielawbanner::lang.messages.Time_description',
                 'type' => 'dropdown',
-                'default' => Lang::get('cggstudio.cookielawbanner::lang.messages.Static'),
+                'default' => '999999999',
                 'options' => [
                     '3000' => '3 seg',
                     '5000' => '5 seg',
