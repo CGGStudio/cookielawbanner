@@ -98,7 +98,6 @@ class Cookielawbanner extends ComponentBase
             'linkEUCookieLawBanner'            => [
                 'title'       => 'cggstudio.cookielawbanner::lang.messages.Link',
                 'description' => 'cggstudio.cookielawbanner::lang.messages.Link_description',
-                'default'     => 1,
                 'type'        => 'dropdown',
                 'options' =>Cookielawbanner::getUrlOptions(),
                 'group' => 'Link',

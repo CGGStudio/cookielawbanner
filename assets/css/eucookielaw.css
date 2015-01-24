@@ -32,7 +32,6 @@
     margin: 0 0 8px !important;
     text-align: left !important;
     font-size: 14px !important;
-    color: #000;
 }
 
 #cookie-law p {
@@ -41,7 +40,6 @@
     text-align: left !important;
     font-size: 12px !important;
     line-height: 18px !important;
-    color: #000;
 }
 
 a.enlace {
@@ -51,8 +49,6 @@ a.enlace {
     font-size: 12px !important;
     line-height: 18px !important;
 }
-
-
 
 
 a.close-cookie-banner {
