@@ -134,18 +134,18 @@ class Cookielawbanner extends ComponentBase
     public function onRender()
     {
 
-        $this->Cookielawbanner = new stdClass();
-        $this->Cookielawbanner->backgroundColor = $this->propertyOrParam('backgroundColorEUCookieLawBanner');
-        $this->Cookielawbanner->textColor = $this->propertyOrParam('textColorEUCookieLawBanner');
-        $this->Cookielawbanner->duration = $this->propertyOrParam('durationEUCookieLawBanner');
-        $this->Cookielawbanner->time = $this->propertyOrParam('timeEUCookieLawBanner');
-        $this->Cookielawbanner->title = $this->propertyOrParam('titleEUCookieLawBanner');
-        $this->Cookielawbanner->message = $this->propertyOrParam('textEUCookieLawBanner');
-        $this->Cookielawbanner->link = $this->propertyOrParam('linkEUCookieLawBanner');
-        $this->Cookielawbanner->Textlink = $this->propertyOrParam('TextlinkEUCookieLawBanner');
-        $this->Cookielawbanner->developer = $this->propertyOrParam('developerEUCookieLawBanner');
-        $this->Cookielawbanner->active = $this->propertyOrParam('activeEUCookieLawBanner');
-        $this->page['cookielawbanner'] = $this->Cookielawbanner;
+        $cookielawbanner = new stdClass();
+        $cookielawbanner->backgroundColor = $this->property('backgroundColorEUCookieLawBanner');
+        $cookielawbanner->textColor = $this->property('textColorEUCookieLawBanner');
+        $cookielawbanner->duration = $this->property('durationEUCookieLawBanner');
+        $cookielawbanner->time = $this->property('timeEUCookieLawBanner');
+        $cookielawbanner->title = $this->property('titleEUCookieLawBanner');
+        $cookielawbanner->message = $this->property('textEUCookieLawBanner');
+        $cookielawbanner->link = $this->property('linkEUCookieLawBanner');
+        $cookielawbanner->Textlink = $this->property('TextlinkEUCookieLawBanner');
+        $cookielawbanner->developer = $this->property('developerEUCookieLawBanner');
+        $cookielawbanner->active = $this->property('activeEUCookieLawBanner');
+        $this->page['cookielawbanner'] = $cookielawbanner;
 
     }
 
